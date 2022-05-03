@@ -1,0 +1,6 @@
+[
+  {
+    "name": "cities",
+    "pattern": "(\\bnew\\ york\\b|\\blas\\ vegas\\b|\\bwashington\\b|\\bchicago\\b|\\bsan\\ francisco\\b|\\bcolorado\\b)"
+  }
+]

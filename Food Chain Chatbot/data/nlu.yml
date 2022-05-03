@@ -1,0 +1,152 @@
+version: "3.1"
+
+nlu:
+- intent: ask_restaurant
+  examples: |
+    - show me restaurants?
+    - what restaurants are availables?
+    - what food plcaes are here?
+    - what options do I have to eat?
+    - where can I go eat?
+    - list restaurant options
+    - show me recommended food places
+    - show me restaurants
+    - could you recommend some restaurants?
+    - can you show me some recommendations?
+    - recommend some restauarants?
+    - restaurant recommendations within your city
+
+- intent: ask_restaurant_info
+  examples: |
+    - show me the restaurants information
+    - the restaurants information
+    - can you show me the website?
+    - the restaurants website
+    - can you show me the address?
+    - the restaurants address
+    - show the address
+    - show the info
+    - show the website
+    - information
+    - website
+    - address
+
+
+- intent: ask_restaurant_cuisine
+  examples: |
+    - show me the restaurants cuisine
+    - the restaurants cuisine
+    - can you show me the cuisines?
+    - what cuisine is available?
+    - list the cuisies
+    - show the cusines
+    - cuisines
+    - cuisine
+    - show me the food type
+    - can i see the food type there?
+    - food types
+    - give restaurant cuisines
+
+
+# - intent: ask_specific_restaurant_info
+#   examples: |
+#     - can i see what to get at [kfc](restaurant)
+#     - what cuisine is in [mcdonals](restaurant)
+#     - what can i get from [subway](restaurant)
+#     - show me cuisines in [subway](restaurant)
+#     - what food type is at [kfc](restaurant)
+#     - show cuisines in [mcdonals](restaurant)
+
+
+
+- intent: inform_restuarant
+  examples: |
+    - [subway](restaurant)
+    - [kfc](restaurant)
+    - [mcdonalds](restaurant)
+    - [subway](restaurant)
+    - [kfc](restaurant)
+    - [mcdonalds](restaurant)
+
+
+- intent: inform_city
+  examples: |
+    - [denver](cities)
+    - [chicago](cities)
+    - [phoenix](cities)
+    - [washington](cities)
+    - i live in [washington](cities)
+    - im currently living in [las vegas](cities)
+    - my city is [chicago](cities)
+    - im from [las vegas](cities)
+    - i reside in [denver](cities)
+    - [las vegas](cities)
+    - recommend me some restaurants in [phoenix](cities)
+    - what are some places to eat in [washington](cities)
+
+
+- intent: how_to_get_started
+  examples: |
+    - how do I get started
+    - what can I do
+    - start
+    - what services are there
+    - services
+
+
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - hey dude
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good bye
+    - see you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yup
+    - that's right
+    - yeah
+    - okay
+    - sure
+    - yep
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - nope
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

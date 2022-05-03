@@ -1,0 +1,1456 @@
+version: "3.1"
+
+nlu:
+- lookup: cuisine
+  examples: |
+    - wallys white river drive in
+    - teak house
+    - everything to go
+    - urban burger bar
+    - tullulahs
+    - mediterranean mix
+    - city bites
+    - bubbas roadhouse saloon
+    - burgerfi
+    - big apple bagels
+    - el patron east ave
+    - smittys better burger
+    - nothing but noodles
+    - big ross hoagies
+    - christos original
+    - thrashers french fries
+    - yoshinoya
+    - pizza pipeline
+    - wild sage american bistro
+    - irmas burger shack
+    - hot dog shop
+    - jacks family restaurants
+    - midway west drive in
+    - kalamata greek cafe
+    - blooming flavors
+    - delta cafe
+    - double dragon
+    - sakura gables japanese restaurant
+    - sabieng thai cuisine
+    - franks diner
+    - big sammys hot dogs ii
+    - ichiban japanese steakhouse
+    - pie five pizza
+    - cafe rio
+    - big town hero
+    - dinners delivery
+    - masala wok
+    - little big burger
+    - hunan lion gourmet chinese
+    - sus hi eatstation
+    - red robin gourmet burgers
+    - wild ginger china bistro
+    - oriental inn
+    - taco villa
+    - classic pizza
+    - lucky palace chinese restaurant
+    - joy of eating cafe
+    - bobs burgers brew
+    - da kitchen
+    - epic burger
+    - sunrise chinese food take out
+    - pollo tropical
+    - park n shop
+    - emidio sons italian restaurant
+    - bandanas bar b q
+    - puerto vallarta
+    - jim toms
+    - cheetah palm beach
+    - the oasis restaurant delivery
+    - hunan house
+    - mugn bun drive in
+    - el charro mexican restaurant
+    - krystal burgers
+    - manchu wok
+    - arctic circle
+    - king wing
+    - el coronel
+    - el jardin
+    - india garden restaurant
+    - jerrys subs pizza
+    - bay harbor
+    - el tapatio restaurante
+    - cozy coffee bistro
+    - habibi diner
+    - donavitos restaurant catering company
+    - red robin gourmet burgers and brews
+    - manhattan subs gyros
+    - chilis grill bar
+    - china hollywood
+    - char grill
+    - abbys restaurant bar
+    - andys burgers shakes fries
+    - saigon noodle house
+    - puerto vallarta restaurant
+    - new china
+    - hongs garden restaurant
+    - black cow burger bar
+    - farmer boys
+    - stars drivein
+    - minhs restaurant
+    - sushi boss
+    - big mills cheesesteaks
+    - ale house 1890
+    - british pantry ltd
+    - el ranchito restaurante
+    - melt bar grilled
+    - barbs cafe
+    - andys frozen custard
+    - south shore grill
+    - cousins subs
+    - taco casa
+    - yeung house
+    - house of china
+    - matts burgers
+    - dinos gyros
+    - zapopan mexican restaurant
+    - main moon chinese restaurant
+    - gyros more
+    - cecil whittakers pizzeria
+    - swensons drive in restaurants
+    - sopa thai cuisine
+    - seasons best seafood
+    - squeeze in restaurant deck
+    - hip hop fish chicken
+    - rally pizza
+    - sundae house
+    - bighams smokehouse
+    - key pizza
+    - steak escape
+    - firehouse subs
+    - zza pizza salad
+    - big chickie
+    - senor taco
+    - mr sub sandwiches
+    - canton city restaurant
+    - eurogyro
+    - edo japanese restaurant
+    - golden phoenix restaurant
+    - pita pit brandon
+    - taco del mar
+    - charleys grill spirits
+    - mazatlan mexican restaurant
+    - magic foods
+    - wins drive in
+    - popeyes
+    - new thai blues
+    - 1 gyro shoppe
+    - fon lee chinese take out
+    - scrimshaw restaurant
+    - romas pizzeria
+    - sonic drive in closed
+    - aw restaurant
+    - hong kong inn
+    - ll hawaiian barbecue
+    - mcconkeys jungle shack
+    - big boy
+    - boston pizza
+    - nikos gyros
+    - mrs fields
+    - silver palace
+    - giant orange
+    - tatanka take out
+    - tom drive in
+    - jims fat burger
+    - 5th street diner
+    - china lin
+    - mcdonalds
+    - krispy krunchy chicken
+    - ferys catering
+    - pops italian beef sausage
+    - izzys burger spa
+    - manhattan pizza subs
+    - nick and jimmys bar grill
+    - rancho viejo
+    - dominos pizza
+    - ciscos taqueria
+    - pot belly sandwich works
+    - big boys construction
+    - tenda chick
+    - fusian
+    - cook out
+    - chubz famous chiliburgers
+    - kolache factory
+    - hunan gardens
+    - fireplace restaurant lounge
+    - franks roman pizza
+    - paradise supermart fast food catering
+    - philly connection
+    - braums ice cream burger restaurant
+    - teddys burger joint
+    - fun house pizza delivery
+    - palermos restaurant
+    - tudors biscuit world
+    - sheung garden
+    - cafe strudel
+    - saladfarm
+    - golden palace restaurant
+    - cousins seafood bento
+    - blimpie subs salads
+    - cafe yumm
+    - acai alaska
+    - seminole subs gyros
+    - tumbleweeds mexican flair
+    - churchs chicken of birmingham
+    - tims tonys restaurant and takeout
+    - demetrios pizza house
+    - baja burrito
+    - skins hotdogs
+    - roma pizza
+    - larrys dawg house
+    - millers ale house
+    - carvel ice cream bakery
+    - panda north
+    - culvers
+    - churchs chicken
+    - il granaio
+    - freddys frozen custard steakburgers
+    - port of subs
+    - campus u tote em
+    - great china
+    - golden chick
+    - super chix now open
+    - dairy queen
+    - manila sunset
+    - bangkok 56
+    - the campbell house inn restaurant
+    - sunwest burgers
+    - leos carryout
+    - mayan family mexican restaurant
+    - casa del rio mexican restaurant
+    - 143 street tacos
+    - einstein bros bagels
+    - paninos italian restaurant
+    - harvester restaurant
+    - sbarro
+    - el rancho alegre
+    - bobbys burgers
+    - the gulf
+    - nikkis fresh gourmet
+    - mamas cantina
+    - olympic broil
+    - old creamery cafe
+    - dollys cafe
+    - grinder deli restaurant and catering
+    - mi pueblito mexican restaurant
+    - charleys philly steaks
+    - stellar brew natural cafe
+    - qdoba mexican grill
+    - pretzel time
+    - hillbilly hotdog
+    - chicken kitchen
+    - mr greek gyros
+    - popeyes chicken and biscuits
+    - del vecchios
+    - wingstreet
+    - hunan gourmet restaurant
+    - zaks shack grill deli takeout
+    - dairy queen grill chill temporarily closed
+    - dennys
+    - hardees red burrito
+    - mikes china beach chinese
+    - mucho gusto mexican kitchen
+    - famous daves
+    - daddys hot dogs
+    - jalsa indian fast food
+    - el cazador mexican restaurant
+    - buena vista bv ii go
+    - pincho factory
+    - foons take out chinese restaurant
+    - maid rite
+    - gentiles bakery deli catering
+    - puffy muffin
+    - panda express inside vons inside vons
+    - dairy queen grill chill
+    - kfc kentucky fried chicken
+    - cosmic kitchen
+    - richards pizza
+    - als burger shack
+    - mollys diner
+    - zippys
+    - colonel sanders fried chicken
+    - hops burger bar
+    - el sombrero
+    - chuong garden
+    - dairy queen grill and chill
+    - wayback burgers
+    - chans restaurant
+    - jacks
+    - souvlaki
+    - chips n ales
+    - the grub house
+    - bon appetit
+    - best burger
+    - cardos pizza of waverly
+    - jamba juice
+    - hooters
+    - djs drive in
+    - destin connection seafood market
+    - napoleons pizza
+    - petes drive in
+    - burrito amigos
+    - burrito joint
+    - wild wings and things
+    - boulder river pizza subs
+    - bens soft pretzels
+    - guthries
+    - in n out burger
+    - szechwan chinese restaurant
+    - new japan express
+    - gulf island grill
+    - nations giant hamburgers great pies
+    - ryans
+    - stanfields steak house
+    - hong kong gourmet
+    - big boys burgers and shakes
+    - china wok
+    - original tommys hamburgers
+    - hana japanese hibachi sushi bar
+    - to gos
+    - jays beef
+    - china garden
+    - gyro wrap
+    - tastee freez
+    - zesto of west columbia
+    - blue monkey cafe
+    - carry out cabby
+    - beach pizza
+    - greenery cafe
+    - bob evans restaurant
+    - beefaroo
+    - luigis italian restaurant
+    - d p dough
+    - nattamit thai restaurant
+    - china jade
+    - ezs burger deluxe
+    - rasors drive in
+    - mas restaurant
+    - j c k restaurants inc
+    - best burgers
+    - three degrees waterfront bar grill closed
+    - via veneto italian restaurant
+    - rocknes
+    - matts takeout
+    - papas breakfast nook
+    - frischs big boy
+    - cafe 100
+    - michaels italian beef
+    - pepes tacos
+    - huddle house
+    - lime fresh mexican grill
+    - the original pancake house
+    - jerrys subs and pizza
+    - lolas cafe at kings landing
+    - basils grille
+    - captain zacks seafood
+    - golden china restaurant
+    - restaurant 11
+    - health camp
+    - peppermint twist drive in
+    - catfish charlies
+    - biggens burgers barbie q
+    - tally ho restaurant
+    - full moon bar b que
+    - canton house
+    - killer tacos
+    - hunan lion gourmet chinese dining
+    - pasquales pizza italian eatery
+    - hi life burgers
+    - whataburger closed
+    - el tapatio
+    - dairy queen closed
+    - crossroads grill of siler city
+    - uncle sis pizza
+    - hook ladder pizza co
+    - capriottis sandwich shop
+    - ny chicken fish
+    - dq grill chill orange julius
+    - killer burger
+    - krekels custard
+    - restaurante monserrate
+    - top china buffet
+    - big als steaks
+    - skippers vancouver
+    - fatburger
+    - black cat burrito
+    - slickrock burrito
+    - rupes burgers
+    - pdq restaurant
+    - fosters freeze
+    - charlie graingers
+    - caribbean express restaurant
+    - boomers
+    - la taqueria de ramiro
+    - pietros pizza pirate adventure
+    - jacks hamburgers
+    - zappos pizza
+    - great wall chinese restaurant
+    - mama guzzardis italian restaurant
+    - dawsons burgers wings fries
+    - touchdown wings
+    - chipotle
+    - rock city grill
+    - popn brew drive thru
+    - best gyros
+    - nongs hunan express
+    - panda express
+    - iwa sushi grill
+    - zeeks pizza
+    - waipuna sushi
+    - c js cakes catering
+    - china panda
+    - johnnys bar grill
+    - subway restaurant
+    - matadors pizzeria
+    - benniditos pizza
+    - dellz uptown
+    - togos eatery
+    - prices chicken coop
+    - dunkin donuts baskinrobbins
+    - frischs big boy restaurant
+    - bellacinos
+    - lulus cafe
+    - ricos subs tacos
+    - tropical smoothie cafe
+    - pei wei asian diner
+    - jaliscos mexican restaurant
+    - dexters drive in
+    - jean kays pasties
+    - shak drive in restaurant
+    - l l hawaiian barbeque
+    - steak n shake
+    - cosmic cantina
+    - thai ginger restaurant bar
+    - keokis
+    - la fiesta
+    - dans drive in
+    - armadillos
+    - guayabitos mexican restaurant
+    - casolas pizzeria sub shop
+    - pizo foz urban pizza kitchen
+    - dinos drive in
+    - gardena bowl coffee shop
+    - wings to go
+    - taco mayo
+    - chets east
+    - el pollo loco
+    - burgers inc
+    - burger ranch of selah
+    - ivans restaurant
+    - marcellos pizzeria
+    - sarafinos pasta pizza
+    - chow to go chinese restaurant
+    - yen ching restaurant
+    - angelinas pizza
+    - cook n pot
+    - mcdonalds closed
+    - oak olive
+    - jacks old fashion hamburger
+    - subway 16 mile
+    - canton chinese restaurant
+    - checkers drive in restaurant
+    - isabellas pizzeria
+    - sharkys modern mexican kitchen
+    - redrum burger
+    - crazy pho cajun
+    - chicken express of conway
+    - highway caf
+    - capri pizzeria
+    - als burger shack southern village
+    - rudinos pizza grinders
+    - tweeters wings
+    - bushs chicken
+    - dunkin
+    - shondiz
+    - buds chicken seafood
+    - hellas cafe
+    - pizza time
+    - banyans on the ridge
+    - mugshots burger n brew
+    - rice house of kabob
+    - lennys american italian fine cuisine
+    - lenfant plaza
+    - treats treasures
+    - bosphorous turkish kitchen
+    - country boys bbq
+    - salsa fresh mexican grill
+    - nonna emilia ristorante
+    - burrito joes
+    - cinco de mayo
+    - baskin robbins
+    - the s and s takeout
+    - pizza hut
+    - bamboo house chinese restaurant
+    - desert subway
+    - quiznos closed
+    - high street pizza
+    - scenic bar restaurant
+    - sabrinas lunch in a box
+    - pilchuck drive in
+    - auntie annes
+    - beef burger
+    - chens restaurant
+    - wibbleys gourmet hamburgers
+    - yeck family drive in restaurant
+    - holy hot dog
+    - kadaydles subs salads more
+    - tamollys mexican restaurant
+    - mc donalds
+    - shaggys burgers tacos
+    - burrtio amigos
+    - luxury box
+    - bassils pizza subs
+    - dixie lee fried chicken
+    - carolina drive in
+    - shake pit
+    - jj fish and chicken
+    - five guys burgers fries
+    - asian garden
+    - jimmy johns
+    - 900 degrees pizza
+    - 1 frischs big boy restaurant
+    - mooyah
+    - sols sandwich shop and deli
+    - golden palace
+    - twistee treat
+    - kwik wok
+    - i love country cafe
+    - mes bar b que
+    - hardees loris
+    - connies cantina
+    - california tortilla
+    - yo fresh yogurt cafe
+    - pizza express
+    - hartz chicken buffet
+    - dq grill chill
+    - kow loon restaurant
+    - mai tai restaurant
+    - los burritos llc
+    - the original hot dog factory
+    - senju japanese restaurant
+    - el paso mexican grill
+    - eddies footlong hotdogs inc
+    - arbys coming soon
+    - sarku japan
+    - philly cheese steak shoppe
+    - jack in the box
+    - fazzaris
+    - bootleggers old town tavern grill
+    - subway
+    - wendys
+    - carolina chicken inc
+    - brownies hamburgers
+    - sumo japanese steakhouse sushi
+    - imos pizza
+    - lees famous recipe chicken
+    - la quesadilla
+    - moo moos burger barn
+    - bee bop burgers
+    - dairy queen treat seasonally closed
+    - chanello s pizza
+    - fiesta en jalisco
+    - sams hotdog stand
+    - vinces pizza
+    - mikes drive up
+    - shelikof lodge restaurant
+    - can am pizza
+    - canneti roadhouse etaliano
+    - browns chicken
+    - hazels hot dogs
+    - adams enterprises
+    - t l hot dogs
+    - burger kingpopeyes
+    - quiznos sub
+    - barberitos
+    - westside deli
+    - zorbas gyro on a spit
+    - flavors grill
+    - big billys burger joint
+    - gyros gyros
+    - new chan express chinese restaurant
+    - ocean beach roasters
+    - mr gs coffee shop
+    - china king
+    - chan bistro
+    - chicken express
+    - captain ds seafood
+    - nathans famous hot dogs
+    - bella bistro
+    - long john silvers
+    - zantes fast food
+    - zacks char grill
+    - grub burger bar
+    - china wok chinese takeout
+    - blackjack pizza
+    - fit food express llc
+    - titos mexican grill
+    - tokyo japanese steakhouse
+    - dairy freeze
+    - andreas keller restaurant
+    - blue bay seafood restaurant
+    - checkers
+    - pauls restaurant
+    - rallys hamburgers
+    - amigos kings classic
+    - sunflower cafe
+    - coopers hawk winery restaurant
+    - surfside burger shack
+    - big als too
+    - freddies
+    - oriental super buffet
+    - arbys
+    - bannastrows crepes and coffee dadeland mall
+    - eddys chinese american restaurant
+    - baja buds
+    - el indio ii
+    - dixie queen
+    - town house drive in restaurant
+    - cafeteria la loma
+    - golden teriyaki
+    - horizons hamburger palace
+    - chinatown
+    - slim chickens
+    - awful annies
+    - krystal
+    - kfc closed
+    - h c way asian bistro
+    - jon smith subs
+    - salmon river pronto pup
+    - happy harbor oyster bay
+    - restaurant
+    - pals sudden service
+    - darmody enterprises
+    - taco tontos
+    - reubens mexican food
+    - happy garden restaurant
+    - twin pines drive in
+    - diannes dairy center
+    - hot head burritos
+    - uncle maddios pizza
+    - pietros pizza
+    - speedy burritos
+    - bojangles famous chicken n biscuits
+    - krystal closed
+    - juan pollo
+    - thai ginger factoria
+    - agate alley bistro
+    - trolley stop
+    - big boy burger express market
+    - chinese to go
+    - dimitris greek italian
+    - dickiejos burgers
+    - steves hot dogs tower grove
+    - tim hortons
+    - banana leaf restaurant
+    - aybla grill
+    - jj sausage maxwell street
+    - burger king closed
+    - home plate cooking
+    - saras too
+    - kozmic cones
+    - pizza pro
+    - hooligans american mediterranean restaurant
+    - syros greek italian restaurant
+    - peking chinese restaurant
+    - ak buffet
+    - jersey mikes subs
+    - uncle maddios pizza joint
+    - tenders inc
+    - browns diner
+    - millers chicken
+    - acropolis gyro palace
+    - taste of thai
+    - woodys drive in
+    - moes southwest grill
+    - go chicken go
+    - manila to go
+    - polar queen drive inn
+    - frenchs classic burgers
+    - mountain mikes pizza
+    - burger master
+    - sushi masa thai cuisine
+    - bob evans
+    - mod pizza
+    - laughing planet cafe
+    - teds hot dogs
+    - wild goats cafe
+    - fishermans cove
+    - fundays
+    - zacks hamburgers
+    - gross burgers
+    - daves cafe
+    - babas gyro and kabob
+    - shasta pizza
+    - thai grata restaurant
+    - noodles bar
+    - toppers pizza
+    - pizza cottage
+    - happy daz
+    - cains bar b que
+    - honeygrow
+    - annas pizza italian restaurant
+    - brizio pizza
+    - del taco
+    - casablanca coffee grill
+    - guppys on the go carryout pizza
+    - taste of buffalo pizzeria
+    - yanagi sushi
+    - spaghettini
+    - jam restaurants
+    - guss drivein
+    - williams chicken
+    - wok to go
+    - commander restaurant
+    - pick up stix
+    - famous gyro george
+    - genghis grill
+    - gilligans steamer raw bar
+    - canevaris delicatessen catering
+    - kalapaki beach hut
+    - buena vista ii
+    - mr pickles sandwich shop
+    - cafe stephanie
+    - crown fried chicken
+    - sorrentos restaurant
+    - gulf shores diner
+    - tomasos italian restaurant
+    - flaming amys burritos
+    - rolands cajun catering
+    - gyro house
+    - tonellis takeout
+    - j c chinese restaurant
+    - bobs dogs
+    - midas burger
+    - charlies fried chicken
+    - cafe yumm river bend
+    - szechuan restaurant
+    - family carry out
+    - sonic drive in temporarily closed
+    - farlows on the water
+    - forasteros mexican food
+    - lahaina pizza company
+    - mr gyros burgers
+    - gyro hut
+    - tuk tuk thai grill dtc
+    - fatt chicks burgers
+    - burger king
+    - carolina crossing restaurant
+    - cafe morocco
+    - cougar cottage
+    - cadillac jacks saloon grill
+    - chick fil a of randolph mall
+    - noble romans
+    - boca burger house
+    - bullritos
+    - torchys tacos
+    - wienerschnitzel
+    - grub house
+    - ks drive in
+    - gyro town
+    - fosters grille
+    - los tacos de huicho
+    - las pinatas of maui
+    - dairy queen russo
+    - casper fry
+    - el burrito jr
+    - subway meadows park sc
+    - innout burger
+    - lions choice
+    - whitts barbecue
+    - mr gyros wallingford
+    - aw all american food
+    - genji go
+    - robongi
+    - waffle house
+    - zaxbys
+    - killer burgers
+    - pizza place
+    - flips burgers
+    - picklemans umkc
+    - starbucks
+    - panda chinese restaurant
+    - georges coneys gyros
+    - kentucky fried chicken
+    - blaze pizza
+    - roly poly
+    - taco johns
+    - djs hot dog co
+    - fusion partners
+    - gyros king subs salads
+    - teddys bigger burgers
+    - piada italian street food
+    - quik wok restaurant
+    - usa subs grill
+    - ski daddys
+    - king gyros greek restaurant
+    - next level burger
+    - new york pizza
+    - larkburger
+    - chill spot
+    - georges gyros spot
+    - mcalisters deli
+    - cypress cafe
+    - mr gyros
+    - hardees restaurant
+    - ellies mutt hut vegetarian
+    - rancho fiesta mexican restaurant
+    - rallys
+    - eagans westside drive inn
+    - back yard burgers
+    - shambala bakery and bistro
+    - stefanos pizzeria
+    - sassy bass market place
+    - countrie eatery
+    - mighty taco
+    - don taylors omelette express
+    - peteys city grill
+    - jimmy johns boyton beach
+    - fit body bistro
+    - tat ristorante di famiglia
+    - tokyo seoul
+    - pizza mill
+    - rushs
+    - wahmei restaurant
+    - sajj
+    - island soul
+    - hog heaven bar b q
+    - valentinos pizzeria restaurant
+    - asia cafe
+    - chuck e cheeses
+    - mambo grill and tapas
+    - krispys fried chicken seafood
+    - wendys temporarily closed
+    - eatin fresh
+    - china bear
+    - perkins restaurant bakery
+    - raising canes chicken fingers
+    - skyline chili
+    - ds tamales togo
+    - all about burger
+    - a w restaurant
+    - baja fresh
+    - evangelos restaurant
+    - wetzels pretzels
+    - we the pizza crystal city
+    - kipps cheesesteak
+    - burger belly
+    - gourmet fine catering
+    - tokyo japanese restaurant
+    - outback steakhouse
+    - whataburger of east texas
+    - b good
+    - rustic cafe
+    - kings wings
+    - cafe italiano
+    - cruzers
+    - teds fish fry
+    - brueggers bagels
+    - los taquitos
+    - arbys closed
+    - nicks gyros and phillys
+    - golden city
+    - dangelo grilled sandwiches
+    - carmens
+    - roy rogers restaurant
+    - time warner cable
+    - pizza 4 less
+    - quiznos
+    - butcher boys cafe
+    - chalupas
+    - wingstop fish chicken
+    - el zarape restaurant
+    - press club the
+    - ricks on the river
+    - theos family restaurant
+    - codmother fish chips
+    - fazolis
+    - mannys restaurant
+    - masaki kyoto japanese restaurant
+    - wimpys grill
+    - dipuccios pasta shop and catering
+    - georgios
+    - best lil porkhouse
+    - kyoto gardens
+    - round table pizza
+    - local joes pizza subs
+    - milos hamburgers
+    - biscuitville
+    - sumo japanese steak house
+    - charleys grilled subs
+    - mr chicken
+    - mediterrano cafe
+    - carls jr
+    - jollibee
+    - bills seafood restaurant
+    - hunan bar restaurant
+    - sushi en
+    - swensons drivein
+    - larson enterprises
+    - missouri hick barbeque
+    - dids pizza froyo
+    - gulf drive cafe
+    - sams hotdogs
+    - olde fish house marina
+    - bistro 1888
+    - napolis pizza
+    - zels roast beef all
+    - r os barbecue restaurant
+    - vcu compass plaza
+    - melt bar and grilled
+    - lemon tree mediterranean grill
+    - biscuit king
+    - scratchcdacom company
+    - jd seafood bistro
+    - firehouse pizza restaurant
+    - carriage house restaurant
+    - jacksons bar oven
+    - mizuna
+    - chinshan
+    - lava burgers and wings
+    - backyard burgers
+    - lins asian bistro
+    - smithfields chicken n barbq
+    - t l hotdogs
+    - r rooster bbq co
+    - mels hot dogs
+    - four eleven west to go
+    - johnny rockets
+    - carrburritos
+    - 90 frischs big boy restaurant
+    - china house
+    - papa johns pizza
+    - milano pizza greek
+    - kens sidewalk cafe
+    - sfihas
+    - pei wei
+    - golden harvest chinese restaurant
+    - roosters landing
+    - giant burger
+    - peacock restaurant
+    - big boys
+    - dominics of new york
+    - gold star hamburgers
+    - hi rise bakery
+    - fast pizza delivery
+    - tazza cafe
+    - saffron
+    - hounds drive in theatre
+    - georges gyros spot 2
+    - el tepeyac grille
+    - toms drive in
+    - five guys
+    - latah bistro
+    - kabul fried chicken corp
+    - hamburger heaven
+    - zips its about time drive in
+    - chinooks at salmon bay
+    - luckys burger shack
+    - sweet ts restaurant bar
+    - sushi island japenese restaurant
+    - mocha express
+    - roy rogers
+    - sky way drive in
+    - sushi boat town
+    - mikes hot dogs hamburgers
+    - pizzamania
+    - popeyes louisiana kitchen
+    - pogolinos
+    - whataburger
+    - sonic drivein
+    - bahn thai bistro
+    - greek plate gyros
+    - salems gyros subs
+    - spice thai kitchen bar
+    - dunkin donuts
+    - phils philly grill
+    - dis and dem burgers and sliders
+    - kretchs restaurant
+    - chipotle mexican grill
+    - country boys drive in
+    - yum yum pizza
+    - dragon golden chinese restaurant
+    - blakes lotaburger
+    - rudys hot dog
+    - super duper burgers
+    - gyros cafe
+    - lupitas tex mex
+    - chick fil a
+    - maple street bistro
+    - tios tacos restaurants
+    - husky deli catering
+    - keeses simply delicious
+    - pietros pizza gallery of games
+    - annies cambodian cuisine
+    - toms burgers grill
+    - braums ice cream and dairy store
+    - jims restaurant inc
+    - miguels jr
+    - the villa restaurant
+    - rays drive in restaurant
+    - lizards thicket restaurant
+    - jasons deli
+    - frankys
+    - el fuego
+    - mediterranean gyro
+    - johns pizzeria
+    - murillos mexican food
+    - pizza hut express
+    - great steak
+    - empress express
+    - checkers drive in rstrnt inc
+    - risata pizza
+    - mr hero
+    - golden east restaurant
+    - deli on rye
+    - sup dogs
+    - awrestaurants
+    - taco bell
+    - china sea
+    - king neptunes seafood restaurant
+    - ardick seafood inc
+    - rogers ice cream and burger
+    - 2 bits cafe
+    - country diner
+    - alpine bistro bakery co
+    - big t bar b q
+    - slice of life
+    - frosty drive in
+    - primary aim
+    - mr ronnies famous hot donuts
+    - subway sandwiches
+    - snoopys hot dogs
+    - silverado smokehouse
+    - moys dynasty restaurant
+    - burger king temporarily closed
+    - corral drive in
+    - bacnis pizza house and ice cream
+    - kimono japanese restaurant
+    - taco gringo
+    - the mad italian pasta steak house
+    - qdoba mexican eats
+    - good mood food
+    - old peking restaurant
+    - leones italian restaurants
+    - silver dragon
+    - subway sandwiches salads
+    - truetts chick fil a
+    - lees bar b q
+    - gyro world
+    - bangkok thai cuisine
+    - chilly willys
+    - krispy kreme
+    - sun house chinese take out restaurant
+    - grecian steak house
+    - chips of wis rapids
+    - boston market
+    - grandys
+    - iceberg drive inn
+    - blackbeards restaurant
+    - moz subway
+    - rocky rococo pizza and pasta
+    - boddie noell enterprises
+    - the big burger spot
+    - china cafe restaurant
+    - chun wah kam noodle factory
+    - larkfield shopping center
+    - wings over syracuse
+    - marinos seafood
+    - dicks drive in
+    - marks hot dogs
+    - taco box
+    - chandos tacos
+    - caseys carry out pizza
+    - evos south tampa
+    - in n out wings
+    - stanfields steakhouse
+    - babas burgers gyros
+    - breakingbread cafe
+    - einstein bros bagels closed
+    - miyoko sushi
+    - dairy queen orange julius
+    - eddies chinese take out
+    - bistro basket to go
+    - grinders above beyond
+    - salata
+    - dreamland bar b que
+    - the purple bowl
+    - carlos quesadillas
+    - ogawas wicked sushi burgers and bowls
+    - buffet city
+    - halo burger
+    - four ten drive in
+    - kismet restaurant
+    - oscars kabob gyros
+    - cafe presto
+    - palenque mexican restaurant
+    - tonys italian kitchen
+    - taco time
+    - garcia jo jos
+    - mamas fried chicken
+    - camerons seafood market
+    - cafe waterfront
+    - smoke the burger joint
+    - schwartzs kraut burger ktchn
+    - super niros gyros
+    - yeongs place
+    - the emerald
+    - sunset grill
+    - first burger
+    - tinos carry out
+    - teresas drive in
+    - roys club italian restaurant
+    - sub conscious
+    - bamboo wok
+    - apollo burgers
+    - pilot butte drive in
+    - giovannis pizza
+    - penn station east coast subs
+    - gyro spot
+    - big jims drive in
+    - retros good eats
+    - westgate pizza
+    - tommys barbecue
+    - g d ritzys
+    - gyro x press
+    - l l drive inn
+    - dks drive in
+    - mancinos pizza
+    - chefs drive inn
+    - fat mermaid
+    - windy city wieners
+    - which wich
+    - mr submarine
+    - tacotime
+    - palms cafe
+    - sorelli pizza
+    - ann tonys restaurant
+    - lakewood ranch lobster pound
+    - moons mongolian grill
+    - patio beef
+    - ramen halu
+    - fat wong chinese food to go
+    - northeastern state university
+    - mojos
+    - the hang out
+    - old country buffet
+    - davys burger ranch
+    - east coast pizza
+    - hawaii bbq restaurant
+    - burger hut
+    - maglios pizza
+    - runza
+    - crispy chicken
+    - bos ice cream
+    - los betos
+    - jimmys classic drive in
+    - tasty asia take out
+    - williams williams carryout
+    - peking chinese restaurants
+    - bates house of turkey inc
+    - photos hotdogs
+    - house of kobe
+    - lees kitchen
+    - king david dogs
+    - banks southern style restaurant
+    - ralphies sports eatery
+    - wenellis pizza
+    - platts seafood
+    - potbelly sandwich works
+    - l l hawaiian barbecue
+    - dejesus deli grocery
+    - sushi to go
+    - high tech burrito
+    - elevation burger
+    - la hacienda
+    - bobs burger brew
+    - bad daddys burger bar
+    - chickfila
+    - charton management inc
+    - everything ok
+    - jacopettis catering
+    - shell gas station
+    - bella union restaurant and saloon
+    - buffalo bills hot wings to go
+    - big daddys burgers
+    - ocharleys
+    - baskinrobbins
+    - little caesars pizza
+    - vals rapid service
+    - bibibop asian grill
+    - sparkys wings and things
+    - kfc
+    - arnolds old fashioned hamburgers
+    - mucho gusto
+    - ritters frozen custard
+    - getta gyro
+    - carls jr green burrito
+    - carinas pizza grill
+    - smokehouse restaurant
+    - blimpie
+    - pita q
+    - orange julius
+    - guadalajara original family mexican restaurant
+    - bar b q king
+    - coney i lander
+    - da vita san jose pd dialysis
+    - wingstop
+    - hardees restaurants
+    - wg grinders
+    - sakimura
+    - krungthai street grill
+    - china jade chinese take out
+    - panera bread
+    - taqueria
+    - auntie annes soft pretzels
+    - mata mediterranean grill
+    - lannies bar b q spot
+    - yums ii inc
+    - dog n suds
+    - larrys restaurant
+    - pizza di roma
+    - dairy queen treat
+    - pita pit
+    - eco bean organic coffee house
+    - chinese thai to go
+    - kfc aw
+    - maui mikes
+    - jimmys big burgers
+    - albees ny gyros
+    - zpizza
+    - cheeseburger in paradise
+    - island seafood market
+    - smoothie king
+    - abbys legendary pizza
+    - burgerville
+    - wings ole
+    - togos sandwiches
+    - burger ranch
+    - burgers stop
+    - bojangles
+    - juicy burger
+    - lees chinese restaurant
+    - time out restaurant
+    - grandads pizza and pub
+    - restaurant kunio
+    - suzies dogs drafts
+    - sundowner cafe
+    - saladworks
+    - lennys burger shop
+    - moby dick
+    - schlotzskys
+    - nathans famous
+    - breadeaux pizza
+    - heroes american grille
+    - char grill 1
+    - sweetgreen
+    - china bell restaurant
+    - wok n roll
+    - shamuss sandwich shoppe
+    - great wraps
+    - wades restaurant
+    - carmines italian restaurant
+    - friar tucks restaurant bar
+    - roosters waterfront restaurant
+    - 919 dine
+    - adalbertos mexican food
+    - davids burgers
+    - flying tiger chinese restaurant
+    - famous kahuku shrimp truck
+    - mr ks
+    - lindamans gourmet to go
+    - planet sub
+    - whataburger of east texas corporate
+    - pdq
+    - china hut
+    - hot wing express
+    - jack browns beer burger jnt
+    - bolay west palm beach
+    - chicken salad chick of jackson flowood
+    - wing king of fletcher
+    - millers drive in
+    - cocodine thai cuisine
+    - mellow mushroom
+    - aw
+    - bogeys
+    - taylor gourmet
+    - 5 star abq
+    - el rancho grande
+    - king gyros
+    - baja bar grill
+    - continental country club
+    - lake city drive in
+    - melvins hamburgers hot dogs
+    - taqueria mi tierra
+    - richway gyros
+    - dog house inc
+    - fanny anns saloon
+    - lees hamburgers
+    - scotts catfish seafood
+    - dari ette drive in
+    - apollo greek restaurant
+    - hunan buffet
+    - marcos pizza
+    - alfonsos pizza
+    - snuffys malt shop
+    - skorpios gyros
+    - gyro express
+    - jades chinese restaurant
+    - c j drive in
+    - hardees
+    - griffs hamburgers
+    - billy jacks burger shack
+    - gourmet cafe
+    - emma keys
+    - afternoon deli
+    - tasty goody chinese fast food
+    - chanellos pizza
+    - thai to go
+    - zippers restaurant lounge
+    - dynasty chinese restaurant
+    - lok yaun restaurant
+    - nuevo vallarta
+    - taco johns temporarily closed
+    - burger in the square
+    - twenty four carrot cuisine
+    - country pride
+    - barbonzai
+    - south india cuisine
+    - thai cafe
+    - noodles company
+    - mcclures restaurant
+    - anf gyros grill
+    - angry barbeque
+    - burger company
+    - nationwide freezer meats
+    - roanoker restaurant inc
+    - tiny town carry out
+    - jambalaya shoppe
+    - alfonsos pizza italian restaurant
+    - the greenery cafe
+    - yummy chinese restaurant
+    - gyro stop
+    - red angel pizza
+    - wing street
+    - the oasis restaurant and delivery
+    - carmels restaurant bar at the grove arcade
+    - tender towne
+    - cornucopia
+    - china cottage
+    - nagano japanese restaurant
+    - bobs carry out shop
+    - sno white drive in
+    - pizza plus
+    - the fat mermaid
+    - burkys grill
+    - china city garden take out
+    - roosters
+    - oberweis ice cream and dairy store
+    - mafiaoza
+    - chicago gyros
+    - pages okra grill
+    - burgermaster
+    - bakers drive thru
+    - shandras pizza
+    - foxs pizza den
+    - schaffners drive in
+    - nakato japanese steakhouse
+    - parkers hot dogs of santa cruz
+    - churpeys of alabama
+    - 40 frischs big boy restaurant
+    - china buffet
+    - masseys pizza
+    - miguels tacos
+    - big boys construction inc
+    - chronic tacos
+    - kafein coffee
+    - neighborhood sbarro
+    - hibachi bistro of monkey junction
+    - mustard seed
+    - get some pizza
+    - joes burgers
+    - simple simons pizza
+    - georges burgers
+    - sonic
+    - china wok express
+    - gold star chili
+    - hot dog on a stick
+    - alberte restaurant with a carribean flavor
+    - dragon china
+    - rock top burgers brew
+    - harringtons drive in
+    - aw restaurants
+    - nicholas restaurant
+    - lowcountry wraps
+    - homegrown
+    - odd moes pizza
+    - villa fresh italian kitchen
+    - skips chicago dogs
+    - marys pizza shack
+    - express alterations
+    - beijing garden restaurant
+    - banana cabana
+    - china star chinese restaurant
+    - greek fiesta
+    - mambo grill tapas
+    - italian kitchen
+    - terrys pizza
+    - tropics bar grill
+    - rocknes n canton
+    - sonic drive in
+    - dairy bar
+    - big joes burgers wings
+    - royles gourmet
+    - great wall of china restaurant
+    - poppys burgers subs
+    - vertoris pizza house
+    - hunts seafood restaurant oyster bar
+    - flame broiler
+    - taco cabana
+    - louisiana fried chicken
+    - chucks burgers freits
+    - king house chinese restaurant
+    - z pizza
+    - gyro delight
+    - gyro uno
+    - hong kong restaurant
+    - captain ds seafood kitchen
+    - bethel square restaurant lounge
+    - nicks gyros subs
+    - bru burger bar
+    - king tut drive in
+    - tokyo grill
+    - wingstop restaurant
+    - order in
+    - steamers shellfish to go
+    - house of lee
+    - ice cream paradise
+    - super taco inc
+    - hometown buffet
+    - sorrentos
+    - cookout
+    - pizza pub italian restaurant and pizzeria
+    - mekong thai cuisine
+    - j c zips inc
+    - china star
+    - baba pops kitchen
+    - white castle
+    - palmetto ale house
+    - the coffee house
+    - sweet peppers deli
+    - taco bueno
+    - cafe 22
+    - pollo campero
+    - popeyes chicken biscuits
+    - mcdonalds family restaurant
+    - charlenes kitchen
+    - hamburger marys
+    - sweet pink pepper
+    - abc chinese restaurant
+    - shake shack
+    - captain ds
+    - otb delight cafe

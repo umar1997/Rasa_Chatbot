@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-cities",
+      "2": "I-cities",
+      "3": "L-cities",
+      "4": "U-cities",
+      "5": "B-restaurant",
+      "6": "I-restaurant",
+      "7": "L-restaurant",
+      "8": "U-restaurant",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-cities": 1,
+      "I-cities": 2,
+      "L-cities": 3,
+      "U-cities": 4,
+      "B-restaurant": 5,
+      "I-restaurant": 6,
+      "L-restaurant": 7,
+      "U-restaurant": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

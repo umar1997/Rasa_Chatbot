@@ -1,0 +1,10 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "utter_requestcity",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpZSYUJRaWJpaXJKcWVKJ05xYAPnBUFQ=": "action_listen",
+    "eJylj9EKwjAMRX8lHzBEX/srpZRRogS2VNNUkNJ/N27KYC+Cvt1LDieJb32AdhW8xzEpZXbQ1hB5nNHBu0xUFNnYWlCMIbaqDi6CqP2Lo6qixBX9xyB4q1g0kT5+9Oy/KVPWYtBL6cCfDsewmU1LSmhzn5YQBvhsIz5nmeNySg9PHft7JQ==": "action_get_city",
+    "eJytj+EKwjAMhF8lDzBE//ZVSgmjxBHYWk1TQcre3bhNBP8o6r87cnx38W3uoJ2ELthH5ZwctFVg6idysJmRi1KybC0kluFkVh0MQqTzG0ZVJcE1+gtB6FypaGS9fsl5/aaMWYuF7kgH/rDbhyfZsKxMdvdxEaGDRxunY5YJlymfdQ6kuC3/T2u4AftHpr8=": "action_listen"
+  }
+}

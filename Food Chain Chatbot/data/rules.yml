@@ -1,0 +1,30 @@
+version: "3.1"
+
+rules:
+
+- rule: GOODBYE TO GOODBYE
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: BOT TO BOT CHALLENGE
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: GREET TO GREET
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_offerstart
+
+# - rule: ALWAYS GET CITY
+#   steps:
+#   - action: utter_requestcity
+#   - intent: inform_city
+
+# - rule: REQUEST CITY AFTER CITIZEN
+#   steps:
+#   - action: utter_iscitizen
+#   - intent: affirm
+#   - action: utter_requestcity

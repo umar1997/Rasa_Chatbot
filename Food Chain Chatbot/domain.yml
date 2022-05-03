@@ -1,0 +1,78 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - inform_city
+  - how_to_get_started
+  - inform_restuarant
+  - ask_restaurant
+  - ask_restaurant_info
+  - ask_restaurant_cuisine
+
+entities: 
+  - cities
+  - restaurant
+
+
+slots:
+  cities:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: cities
+  restaurant:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: restaurant
+
+responses:
+  
+  utter_greet:
+  - text: "Hey!"
+
+  utter_goodbye:
+  - text: "Ok then. Goodbye!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_iscitizen:
+  - text: "Are you from USA?"
+
+  utter_cant_find_city_response:
+  - text: "Sorry! I Dont think we have that city in our databse :("
+
+  utter_requestcity:
+  - text: "Which city are you from?"
+
+  utter_askcorrectcity:
+  - text: "Did you mean either of these cities? \nRetype with the correct spellings."
+
+  utter_offerstart:
+  - text: "Would you like to get started?"
+
+  utter_gettingstarted:
+  - text: "USA Food Chatbot provides the following services: \n
+  1. Restaurant recommendations within your city.\n
+  2. Give Restaurant Cuisines. \n
+  3. Give Restaurant Info (Address and website)."
+
+  utter_default:
+  - text: "Sorry! I couldnt quite understand that. Could you rephrase?"
+
+actions:
+  - action_get_city
+  - action_get_cuisine
+  - action_get_restaurant
+  - action_choose_restaurant
+  - action_get_restaurant_info
+  - action_get_restaurant_cuisine
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

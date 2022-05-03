@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-cities",
+      "2": "I-cities",
+      "3": "L-cities",
+      "4": "U-cities",
+      "5": "B-cuisine",
+      "6": "I-cuisine",
+      "7": "L-cuisine",
+      "8": "U-cuisine",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-cities": 1,
+      "I-cities": 2,
+      "L-cities": 3,
+      "U-cities": 4,
+      "B-cuisine": 5,
+      "I-cuisine": 6,
+      "L-cuisine": 7,
+      "U-cuisine": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

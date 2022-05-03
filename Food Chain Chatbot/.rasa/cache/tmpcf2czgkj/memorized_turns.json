@@ -1,0 +1,32 @@
+{
+  "lookup": {
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4tNTS0oy89KLSxKLSlJTamtjAWmRFjU=": "action_listen",
+    "eJyFjEEKgDAMBL/SB/gCvyJSgoZS1CjJ1kvJ3w3o3dsOO7tT9yH1S/nOtKCeMqb+hix08JgawJoLA1WKgRS8+s/mg70aWMJtxhpOlUBEbVtWjq+mJHCfH4U1M9k=": "action_get_restaurant",
+    "eJyNjkEKgDAQA7/SB/iCfkVkKbqUoq6yTb2U/t0FPXirt4QkQ8baBldP5YvCjHSId/URJGFn7wrASpGBJDEjKHhpnc1rtpTBYt2SWa2TxCwszispG6toEPyE2YPvqAudbi8mVNY=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCc9NSS+KLU4pLE0qLEvJLa2lgAfGMWfg==": "action_listen",
+    "eJyNjsEKwzAMQ3/FH1DGds2vhBDMcIuhdYbt9BL67zXroNfdJPQklMcxwfgo7RXfzk0SjEtUwY0S/MxCXpXMsSuKH/+VVjYnCdbW5hbQvZAgvx7PElk30ohInJ0pqHxTZQKWmAicZW66fT90vD6UE9jYSDc=": "action_choose_restaurant",
+    "eJy1jkEKAjEMRa+SAwyi216llFKGqIGZRJLUTZm7G1QYl7pwl/Df/7w8tgnGTfFe2+wknGC8jsptxQTv54JeFc1b18a+fVdayBw5WFvELaB9IUE+HY4lsm6oESE7OWFQeafKBMQxETjxWXR9OvT2g8N8FTH8dP+XTnkAXxR+ig==": "action_listen",
+    "eJyFi0EKwzAMBL/iB4TSXv2VYIxJlCBI5CJtAsH47xWkPfek1ezs2PoQ2lvpzGUCV4mh3SFL2SmGAyDNKwEsq6EoaO5/Nt9nYwOJu7ZVmEsTg8nD+Ho8k/PDSB2T4FfcRhoCi08R/S5V9+z86j19AL0LQc4=": "action_get_city",
+    "eJytjkEKwzAMBL/iB4SSXv2VYIxJ1SBI5CJtCsXk7xW4PbeHnLRazbKa2jGE9lB65jKDq8TQushSNophB0jzQgDLYigKuh0/Mp9lZQOJs7ZWmEMzg8nFdL2Myf3dSN0mwffQiTQEFo8i+rxX3bL7rz9b/dWOn9eb3gp6bjA=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4hOLs5Pzi4pSk0uSM0sqa2tjAWj0FjY=": "action_listen",
+    "eJyFjUEKwzAMBL/iB4TQXv2VYIwxCogkcpE2hWLy9wjcnnvSajWDln5Nob+U3rlUcJMY+ghZykExnABpLrbVpkoVlfG5/jjfZWcDibO2N5hD7jJ5WJ7zI3l/GqnXJPgdBpGmwOIqos+16ZHH13QDvORBzw==": "action_get_city",
+    "eJytjVEKAjEMRK/SAyyiv73KUkopUcLuppLMClL27gaq3yL4lcnMG2buxxT6XemRSwU3iaEPkaVsFMMOkOZiS22qVFEZz+NL5/2sbCBx1tYGc8i7TC7my+mc3N+N1G0SfIJBpCmweBXR77Xpln9YvREG/r/d9AIKy24x": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4otSC0tTi0uSM0sqa2tjASkkFQ4=": "action_listen",
+    "eJyFjUEKhDAMRa/SA4iM215FShHJQEDTMfkdGIp3N9Bx7So/P++RuZ1DaB+lb15WcJEYWg9Zlp1iqABpVjoqGVbG73wQ/svGBhJnbSswh9xl8jBP4yt5X43UaxLch06kIbC4iujzXXTP/Wu6APSVQKc=": "action_get_city",
+    "eJytjVEKwzAMQ6+SA5TR/eYqJYRSvGFonc5WBiP07jOk+x6DfVmWntDUjiG0XemZ5wVcJIbWRZZ5oxgqQJqVHpUMC+N1fCmcz8oGEmdtLTCHvMvkYrpexuR+NVK3SfAJOpGGwOJVRL+3olv+YfVO6Pj/dtMbt61tCQ==": "action_listen",
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "utter_offerstart",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpZSYkJ+WllpUXJJYhNuYWAClbU/S": "action_listen",
+    "eJylj1EKgCAQBa+yB+gEXiVCpJ4h1BrrGoR49wT7D+rvDQwDbyx1oHIITutmDZENlT4sux2GHthCUnBzc4I0J3BDNbQKoPWlkVUhtqt/CtF7SFInXzMvZxbwVet0A+N/aT8=": "utter_goodbye",
+    "eJylj1EKgCAQBa/iATqBV4kQy1cItca6BiHdPaF+w6i/NzAMvDYfjcorYzN2EB9Iq3wNQ3aBVjfMPgqouCmCi+OpoGg1MSBHpZFEwOZS/xTCOIKjWP6aqZxxoP3llxBcv+Mp0Z3McYK8": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFEpLSlKL4hOLs5Pzi4pSk0uSM0sqawnogXJyMotLUvOAakuLU4uAajLzgNwSK4WU1DygEbEAklEvow==": "utter_cant_find_city_response",
+    "eJyFjVEKhDAMRK/SA+wJepVFQokjhNVUkriwFO++Ff0V/2bgzZt321+prYYvFQ6pmlM7A2lZkNMWAaPiH65m4GCJ3/6wucosHtDObg7rjGivkdMIfVSct1w0aBId6bglg69VHXfK4Q9AiE/D": "utter_goodbye",
+    "eJyljUEKwzAMBL/iB/QF/kopwpHVIppIQVICweTvdUmuJYfedmB39t72W2qz0QoFg1VyakcAKRPltESQQfE3qhlhIMe2X2xOGNmDpHcXJ+sdlo6RUyW5VBy3WCTgyVLhewtGPqs4/aN8qdZh+6l4fAB9nWlA": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCc9NSS+OTMksra2lgA/AkT7g==": "action_listen",
+    "eJyNzEEKAjEMheGr5ACD6LZXKaWEIUpgJpUkFaT07mZwwK27PP6P5DEXGE+lV8XVuUmC8T2q4E4JzvEgryv7e/7HNzYnCWtbcwukZI5dUTxBvl2uJVo30kgkzs4UKv9UWYAlXgRnuTfd69E6Hm3O8gEGPkWn": "action_choose_restaurant",
+    "eJy1jkEKwzAMBL+iB4TSXv0VY4wxaitI5CLJhWLy9yqkkGsuve0yw7JxrBOMl+A7l2rUOMDYQ+ayYIBfeaDlSvZZz+kzqSG7q3MzdUlQrXQpbAHi7XJNzrqiOEI2MkK34mGlCYh9wnXie5Mlb6yXjZ38UJ+tKeZj82930hcd7Hv6": "action_listen",
+    "eJylj1EKgCAQBa/iATqBV4mQJZ4hpMa69iN79wT7F+rvDQwDb226mHYxbke7hJysaWO4RBHWvHCGIkjdrQXcnZA6ijUHA6KTRhUBu6H+KWTvwUWIv2YmZ8j7wFF1ewC2oWoE": "utter_gettingstarted",
+    "eJylj0EKgzAURK+SA3iCXEUkhDqRD/VHfkY3wbs3NN0Wpd3NwOMxM9ZzcHUzHCE+KFm9qz0EjSu8+5SnFEIbuxdYY0RbpXeLATwvHDsJCx39x5BTghVG+1VzcSamJLbefANSdHmvwfzdNb0Aj8yHRg==": "action_listen"
+  }
+}

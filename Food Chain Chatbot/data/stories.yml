@@ -1,0 +1,108 @@
+version: "3.1"
+
+stories:
+
+- story: PATH TO NOT GET STARTED
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_offerstart
+  - intent: deny
+  - action: utter_goodbye
+
+- story: GREET AND GET STARTED
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_offerstart
+  - intent: affirm
+  - action: utter_gettingstarted
+
+###################################################
+
+
+
+############### After Utter Getting Started Should have these two possibilities
+- story: START RESTAURANT PATH
+  steps:
+  - action: utter_gettingstarted
+  - intent: ask_restaurant
+  - action: action_get_restaurant
+  # Either redirect to get_city or tell_restaurants
+
+- story: START CITY PATH
+  steps:
+  - action: utter_gettingstarted
+  - intent: inform_city
+    entities:
+    - cities: denver
+  - action: action_get_city
+  # Either redirect to correct_spelling or tell_restaurants
+###############
+
+
+
+- story: GET CITY PATH
+  steps:
+  - action: utter_requestcity
+  - intent: inform_city
+    entities:
+    - cities: chicago
+  - action: action_get_city
+    # Either redirect to correct_spelling or tell_restaurants
+
+
+
+
+############### City Sppelling Entered Wrong
+- story: CITY NOT FOUND
+  steps:
+  - action: utter_askcorrectcity
+  - intent: deny
+  - action: utter_cant_find_city_response
+  - action: utter_goodbye
+
+
+- story: WRITE CITY WITH CORRECT SPELLING
+  steps:
+  - action: utter_askcorrectcity
+  - intent: inform_city
+    entities:
+    - cities: san francisco
+  - action: action_get_city
+###############
+
+
+############### CHOOSING RESTAURANT
+- story: USER CHOOSES RESTAURANT FROM GET CITY
+  steps:
+  - action: action_get_city
+  - intent: inform_restuarant
+    entities:
+    - restaurant: mcdonalds
+  - action: action_choose_restaurant
+
+- story: USER CHOOSES RESTAURANT FROM GET RESTAURANT
+  steps:
+  - action: action_get_restaurant
+  - intent: inform_restuarant
+    entities:
+    - restaurant: subway
+  - action: action_choose_restaurant
+###############
+
+
+############### Getting Restaurant Info and Cuisines
+- story: USER CHOOSING RESTAURANT CUISINE
+  steps:
+  - action: action_choose_restaurant
+  - intent: ask_restaurant_cuisine
+  - action: action_get_restaurant_cuisine
+
+
+- story: USER CHOOSING RESTAURANT INFO
+  steps:
+  - action: action_choose_restaurant
+  - intent: ask_restaurant_info
+  - action: action_get_restaurant_info
+###############
