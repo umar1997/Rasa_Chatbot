@@ -61,11 +61,17 @@ So for running this just run with the following example.
 The Spelling mistake functionality does get picked up for the cities if the cities spelling are close e.g: chicago -> chicgo etc.
 
 
-### Examples
+## Examples
+Here are some randomly run examples.
+#### Example 1
 ![Results](Snapshots/Example_Flow_1.PNG)
+#### Example 2
 ![Results](Snapshots/Example_Flow_2.PNG)
+#### Example 3
 ![Results](Snapshots/Spelling_Mistake.PNG)
+#### Example 4
 ![Results](Snapshots/Not_Get_Started.PNG)
+#### Example 5
 ![Results](Snapshots/Not_In_List.PNG)
 
 
