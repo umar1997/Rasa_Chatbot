@@ -62,10 +62,10 @@ The Spelling mistake functionality does get picked up for the cities if the citi
 
 
 ### Examples
-![Results](Snapshot/Example_Flow_1.PNG)
-![Results](Snapshot/Example_Flow_2.PNG)
-![Results](Snapshot/Spelling_Mistake.PNG)
-![Results](Snapshot/Not_Get_Started.PNG)
-![Results](Snapshot/Not_In_List.PNG)
+![Results](Snapshots/Example_Flow_1.PNG)
+![Results](Snapshots/Example_Flow_2.PNG)
+![Results](Snapshots/Spelling_Mistake.PNG)
+![Results](Snapshots/Not_Get_Started.PNG)
+![Results](Snapshots/Not_In_List.PNG)
 
 
